@@ -304,7 +304,11 @@ At this point, get someone to approve each of the open PR and merge them. Be sur
 
 ## Finalize with PR to LoopWorkspace
 
-Once all the localization PR have been finished and merged, LoopWorkspace needs to be updated as well. Below are some of the CLI steps that could be used. Probably want to create another manual script.
+An interim script was added. It creates a new branch: dev_translations_test and commits the changes for any submodule that has a translations branch. It also allows updates to scripts and instructions to be committed as well. See:
+
+* manual_test_LoopWorkspace_translations.sh
+
+Once all the localization PR have been finished and merged, LoopWorkspace needs to be updated as well. Below are some of the CLI steps that could be used. Probably want to create another manual script for doing the final PR leading to the next update to dev branch.
 
 Prepare the local clone for updates and create a new branch:
 
